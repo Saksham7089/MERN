@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 2</title>
+
+    <!--This is a Internal CSS -->
+    <style>
+      table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+
+      td, td {
+        background-color: aquamarine;
+      }
+
+      .cls{
+        background-color: blanchedalmond;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        height: 100px;
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3 style="color: blue">Topic Image</h3>
+    <img src="\Images\coding_setup.jpg" alt="coding_setup" height="300" />
+    <!--The HTML <img> tag is used to embed an image in a web page.
+        Images are not technically inserted into a web page; images are linked to web pages. 
+        The <img> tag creates a holding space for the referenced image.
+        The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+        The <img> tag has two required attributes:
+        src - Specifies the path to the image
+        alt - Specifies an alternate text for the image-->
+    <hr />
+
+    <h3 style="color: blue">Topic Table</h3>
+    <!--HTML tables allow web developers to arrange data into rows and columns.-->
+    <table>
+      <!--A table cell can contain all sorts of HTML elements: text, images, lists, links, other tables, etc.-->
+
+      <tr>
+        <!--tr stands for table row.-->
+
+        <th>First Name</th>
+        <!--th stands for table header.-->
+        <th>Second Name</th>
+        <th>Email id</th>
+      </tr>
+
+      <tr>
+        <td>Saksham</td>
+        <!--td stands for table data.-->
+        <td>Hanotiya</td>
+        <td>sakshamhanotiya@gmail.com</td>
+      </tr>
+    </table>
+    <hr />
+
+    <h3 style="color: blue">Topic Lists</h3>
+
+    <!-- 1. Ordered List 
+        An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+        
+        Type	    Description :-
+        type="1"	The list items will be numbered with numbers (default)
+        type="A"	The list items will be numbered with uppercase letters
+        type="a"	The list items will be numbered with lowercase letters
+        type="I"	The list items will be numbered with uppercase roman numbers
+        type="i"	The list items will be numbered with lowercase roman numbers-->
+
+    <ol type="1">
+      <li>first item</li>
+      <li>second item</li>
+      <li>third item</li>
+      <li>fourth item</li>
+      <li>fiveth item</li>
+    </ol>
+    <hr />
+
+    <!-- 2. Unordered List 
+        The HTML <ul> tag defines an unordered (bulleted) list.
+        
+        Value	Description :-
+        disc	Sets the list item marker to a bullet (default)
+        circle	Sets the list item marker to a circle
+        square	Sets the list item marker to a square
+        none	The list items will not be marked-->
+    <ul>
+      <li>coffee</li>
+      <li>tea</li>
+      <li>ice-cream</li>
+      <li>milk</li>
+      <li>soup</li>
+    </ul>
+    <hr />
+
+    <!-- 3. Description List
+        A description list is a list of terms, with a description of each term.
+        
+        Use the HTML <dl> element to define a description list
+        Use the HTML <dt> element to define the description term
+        Use the HTML <dd> element to describe the term in a description list-->
+    <dl>
+      <dt>Coffee</dt>
+      <dd>black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>white hot drink</dd>
+    </dl>
+    <hr />
+
+    <h3 style="color: blue">Topic Block and Inline Elements</h3>
+
+    <!-- 1. Block Level Element
+        A block-level element always takes up the full width availabl.
+        Two commonly used block elements are: <p> and <div>.-->
+    <p style="border: 2px solid black">This is Paragraph</p>
+    <div style="border: 2px solid red">This is Division or Section</div>
+    <br />
+
+    <!-- 2. Inline Level Element
+        An inline element does not start on a new line.
+        An inline element only takes up as much width as necessary.
+        This is a <span> element inside a paragraph.-->
+    <span style="border: 2px solid purple">this is span</span>
+    <hr />
+
+    <h3 style="color: blue">Topic Class Attribute</h3>
+
+    <!--Class Attribute
+        The class attribute is often used to point to a class name in a style sheet. 
+        It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+        1. The HTML class attribute specifies one or more class names for an element
+        2. Classes are used by CSS and JavaScript to select and access specific elements
+        3. The class attribute can be used on any HTML element
+        4. The class name is case sensitive
+        5. Different HTML elements can point to the same class name
+        6. JavaScript can access elements with a specific class name with the getElementsByClassName() method-->
+
+        <div class="cls">
+            <h4>Indore</h4>
+            <p>indore is a cleaness city in madhya pardesh</p>
+        </div>
+
+        <div class="cls">
+            <h4>Bhopal</h4>
+            <p>bhopal is a lake of city.</p>
+        </div>
+
+        <div class="cls">
+            <h4>Pune</h4>
+            <p>pune is a tech city.</p>
+        </div>
+  </body>
+</html>
