@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3</title>
+    <style>
+      /*The "." is used for class in html*/
+      .cls {
+        background-color: blanchedalmond;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        height: 100px;
+        width: 200px;
+      }
+
+      /*The "#" is used for ID in html*/
+      #header {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: blue">Topic ID</h1>
+    <!--The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
+        The id attribute is used to point to a specific style declaration in a style sheet. 
+        It is also used by JavaScript to access and manipulate the element with the specific id.-->
+
+    <h1 id="header">My Cities</h1>
+    <div class="cls">
+      <h4>Indore</h4>
+      <p>indore is a cleaness city in madhya pardesh</p>
+    </div>
+
+    <div class="cls">
+      <h4>Bhopal</h4>
+      <p>bhopal is a lake of city.</p>
+    </div>
+
+    <div class="cls">
+      <h4>Pune</h4>
+      <p>pune is a tech city.</p>
+    </div>
+    <hr>
+
+    <h1 style="color: blue;">Topic Semantic Elements</h1>
+    <!--A semantic element clearly describes its meaning to both the browser and the developer.
+        Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+        Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.-->
+    <header style="background-color: chocolate;">
+        This is a header
+    </header>
+
+    <article style="background-color: burlywood;">
+        <h1>Article Heading</h1>
+    </article>
+
+    <aside style="background-color: aqua;">
+        this is right side 
+    </aside>
+    <hr>
+
+    <h1 style="color: blue;">Topic HTML Form</h1>
+    <!--An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+        The HTML <form> element is used to create an HTML form for user input:-->
+
+    <form>
+      
+      <label>First Name :  </label> <!--The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.-->
+      
+      <input type="text"> <!--The <input type="text"> defines a single-line input field for text input.-->
+      <label>Last Name : </label>
+      <input type="text"><br><br>
+
+      <label for="male">Male </label>
+      <input type="radio">  <!--Radio buttons let a user select ONE of a limited number of choices.-->
+      <label for="female">Female </label>
+      <input type="radio"><br><br>
+
+      <label for="single">Single </label>
+      <input type="checkbox">
+      <label for="married">Married </label>
+      <input type="checkbox"><br><br>
+
+      <button type="button" onclick="alert('Sucessfully Submit')">Submit</button> <!--The <button> element defines a clickable button:-->
+      
+    </form>
+  </body>
+</html>
