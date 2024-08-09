@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 15px;
+}
+
+/* Make a card  */
+.card{
+    background-color: rgb(202, 202, 202);
+    width: 300px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.image{
+    padding: 10px;
+}
+
+.image img{
+    border-radius: 10px;
+}
+
+.content{
+    padding: 13px;
+}
+
+.content p{
+    font-size: 10px;
+    color: gray;
+}
+
+.capsule{
+    padding: 5px 0px 0px 10px;
+}
+
+.capsule span{
+    border: 2px solid gray;
+    padding: 1px 11px;
+    border-radius: 10px;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    background-color: rgb(219, 219, 254);
+    color: rgb(70, 117, 237);
+    padding: 8px 29px;
+    border-radius: 30px;
+    margin: 7px;
+    border: none;
+}
+
+/* CSS Variable */
+:root{
+    --headingColor:rgb(228, 38, 38);
+    --paracolor:orange;
+}
+
+.heading_cls{
+    color: var(--headingColor);
+}
+
+.para_cls{
+    color: var(--paracolor);
+    font-size: 15px;
+}
+
+/* Media Query */
+.b1{
+    height: 100px;
+    width: 900px;
+    background-color: brown;
+}
+
+@media only screen and (max-width:500px){
+    .b1{
+        background-color: blue;
+    }
+}
